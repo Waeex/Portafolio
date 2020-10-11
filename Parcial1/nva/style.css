@@ -1,0 +1,25 @@
+.centrado{
+  text-align: center;
+}
+.btn{
+  width: 400 px;
+  height: 80 px;
+}
+.text-outline-success{
+  display: none;
+}
+.text-si{
+  display: none;
+}
+.div-btn:hover span.text-no{
+display:none;
+}
+.div-btn:hover span.text-si{
+display:block;
+}
+.div-btn:hover .btn-si{
+  display: none;
+}
+.div-btn:hover .btn-no{
+  background-color: green;
+}
