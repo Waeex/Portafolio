@@ -10,6 +10,7 @@
 .u-containerDefault{
     width: 50em;
     margin: 0 auto;
+    flex: auto;
 }
 
 /* Componentes */
@@ -106,6 +107,13 @@
 
 .Work-imageContainer{
     margin: 0 2em 1em 0;
+}
+.Work-image{
+    flex-wrap: initial;
+    flex: auto;
+    width: 500px;
+    height: 250px
+
 }
 
 .Work-description{

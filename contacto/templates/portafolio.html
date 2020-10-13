@@ -59,7 +59,7 @@
                 <article class="Work-item">
                     <figure class="Work-imageContainer">
                         <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
-                        <figcaption>https://miguelperezramirez7.000webhostapp.com/</figcaption>
+                        <figcaption><a>https://miguelperezramirez7.000webhostapp.com/</a></figcaption>
                     </figure>
                 </article>
                 <article class="Work-item">
@@ -81,7 +81,7 @@
                     </figure>
                 </article>
         </section>
-        <footer id="contacto" class="Footer">
+        <footer id="contacto" class="Footer" >
             <div class="Footer-left">
                 <h3 class="Footer-title">Contacto</h3>
                 <p class="Footer-description">Si tienes alguna duda o sugerencia esta es mi información de contacto</p>
@@ -89,10 +89,10 @@
                 <p><i class="fas fa-lg fa-phone"></i> +52 9983012309</p>
     
             </div>
-            <form action="" class="Footer-form">
-                <input type="text" placeholder="Nombre" class="Footer-input">
-                <input type="email" placeholder="Email" class="Footer-input">
-                <textarea placeholder="motivo" class="Footer-textarea"></textarea>
+            <form name="contact" method="POST" data-netlify="true" class="Footer-form">
+                <input name="name" type="text" placeholder="Nombre" class="Footer-input">
+                <input name="email" type="email" placeholder="Email" class="Footer-input">
+                <textarea name="text" placeholder="motivo" class="Footer-textarea"></textarea>
                 <button type="submit" class="Footer-button">Contactarme</button>
             </form>
         </footer>
