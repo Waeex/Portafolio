@@ -1,3 +1,30 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Work-description a{
+    background-color:  #00DBFF;
+    border-radius: 1.5em;
+    color: white;
+    padding: .5em 1em;
+    text-decoration: none;
+    margin-right: .5em;
+    display: inline-block;
+}
+.Work-description a:hover{
+    background-color:  #131215;
+    border-radius: 1.5em;
+    color: white;
+    padding: .5em 1em;
+    text-decoration: none;
+    margin-right: .5em;
+    display: inline-block;
+}
+
+
+
 /* Utilidades */
 .u-title{
     border-bottom: 2px dashed #00DBFF;
@@ -5,10 +32,20 @@
     font-weight: 400;
     padding-bottom: .5em;
     text-align: center;
+    flex: auto;
+    margin-top: 2rem;
+}
+.u-title:hover{
+    border-bottom: 2px dashed #000204;
+    color: #000000;
+    font-weight: 400;
+    padding-bottom: .5em;
+    text-align: center;
+    flex: auto;
 }
 
 .u-containerDefault{
-    width: 50em;
+    width: auto;
     margin: 0 auto;
     flex: auto;
 }
@@ -29,14 +66,23 @@
 .MainMenu-list{
     margin:0;
     padding: 0;
+    flex: auto;
 }
 
 .MainMenu-item{
     display: inline-block;
+    
 }
 
 .MainMenu-link{
     color: #00DBFF;
+    font-size: 1.25em;
+    line-height: 60px;
+    margin: 0 1.25em;
+    text-decoration: none;
+}
+.MainMenu-link:hover{
+    color: #0b77dc;
     font-size: 1.25em;
     line-height: 60px;
     margin: 0 1.25em;
@@ -53,15 +99,22 @@
     padding: 1em 0;
     text-align: center;
 }
+.Header-deg{
+    width: auto;
+    height: auto;
+    background: linear-gradient(130deg,#509cf9,e83b5);
+    opacity: .8 ;
+}
 
 .Header-image{
     border:5px solid white;
     border-radius: 50%;
+   
 }
 
 .Header-link,
 .Header-name{
-    color: white;
+    color: #00DBFF;
 }
 
 .Header-link{
@@ -79,10 +132,11 @@
 
 .Profile{
     text-align: center;
+    flex: auto;
 }
 
 .Profile-link{
-    background-color: orange;
+    background-color:  #00DBFF;
     border-radius: 1.5em;
     color: white;
     padding: .5em 1em;
@@ -91,9 +145,19 @@
     display: inline-block;
 }
 
+.Profile-link:hover{
+    background-color:  #136de2;
+    border-radius: 1.5em;
+    color: white;
+    padding: .5em 1em;
+    text-decoration: none;
+    margin-right: .5em;
+    display: inline-block;
+}
 
 .Profile-description{
     margin-bottom: 1em;
+    flex: auto;
 }
 
 /* Work */
@@ -115,6 +179,9 @@
     height: 250px
 
 }
+.Work-title{
+    flex: auto;
+}
 
 .Work-description{
     color: #515151;
@@ -123,9 +190,11 @@
 }
 
 /* Footer */
-
-.Footer{
+.Footer-img{
     background-image: url('../images/footer.jpg');
+}
+.Footer{
+   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -162,7 +231,7 @@
 }
 
 .Footer-button{
-    background: orange;
+    background:#00DBFF ;
     border: none;
     color: white;
     padding: .5em;

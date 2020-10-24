@@ -11,9 +11,9 @@
     </head>
     
     <body>
-        
-        
+        <span class="Header-deg">
         <header id="Perfil" class="Header">
+        </span>
             
             <nav class="MainMenu">
                 <ul class="MainMenu-list">
@@ -38,7 +38,6 @@
                 <p class="Header-name">Miguel Ramirez</p>
             </figure>
         </header>
-        
         <section id="Perfil" class="Profile">
             <div class="u-containerDefault"> 
                 <h2 class="Profile-title u-title">Mi Perfil</h2>
@@ -84,21 +83,29 @@
         <section id="Cv" class="Cv">
         <iframe src="https://docs.google.com/viewer?srcid=1i1G1EL4QDrHG4TKQDqpEYIgYgMzQ8RFs&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="680px"></iframe>
         </section>
-        <footer id="contacto" class="Footer" >
-            <div class="Footer-left">
-                <h3 class="Footer-title">Contacto</h3>
-                <p class="Footer-description">Si tienes alguna duda o sugerencia esta es mi información de contacto</p>
-                <p><i class="fas fa-lg fa-envelope"></i> Miguelandroit100@gmail.com</p>
-                <p><i class="fas fa-lg fa-phone"></i> +52 9983012309</p>
-    
+    <div class="Header-deg">
+        <div class="Footer-img">
+            <footer id="contacto" class="Footer" >
+                    <div class="Footer-left">
+                        <h2 class="Profile-title u-title"> Contacto</h2>
+                        <br>
+                        <p class="Footer-description">Si tienes alguna duda o sugerencia esta es mi información de contacto</p>
+                        <br>
+                        <p><i class="fas fa-lg fa-envelope"></i> Miguelandroit100@gmail.com</p>
+                        <p><i class="fas fa-lg fa-phone"></i> +52 9983012309</p>
+            
+                    </div>
+                <div class="Header-deg"> 
+                    <form name="contact" method="POST" data-netlify="true" class="Footer-form" >
+                        <input name="name" type="text" placeholder="Nombre" class="Footer-input" required>
+                        <input name="email" type="email" placeholder="Email" class="Footer-input" required>
+                        <textarea name="text" placeholder="motivo" class="Footer-textarea"></textarea required>
+                        <button type="submit" class="Footer-button">Contactarme</button>
+                    </form>
+                </div>
             </div>
-            <form name="contact" method="POST" data-netlify="true" class="Footer-form">
-                <input name="name" type="text" placeholder="Nombre" class="Footer-input">
-                <input name="email" type="email" placeholder="Email" class="Footer-input">
-                <textarea name="text" placeholder="motivo" class="Footer-textarea"></textarea>
-                <button type="submit" class="Footer-button">Contactarme</button>
-            </form>
         </footer>
+    </div>
     </body>
 </html>
 
